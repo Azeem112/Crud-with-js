@@ -1,0 +1,78 @@
+	/*    css file of js form */
+	
+	h1 {
+		text-align:center;
+		color:purple
+	}
+		
+	input {
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+		
+	input[type="text"], textarea { 
+		background-color: #F8F8FF;
+		border: 1px solid black;
+		opacity: 0.6;
+	}
+
+	.Error { 
+		color:red
+	}
+		
+	lable { 
+		display:inline-block; 
+		width:60px;
+		margin-left: 5px;
+		color: 	#A52A2A;
+	}
+		
+	.background { 
+		background-image: url("../img/bg.jpg");
+	}
+	
+	.required{
+		color: #800000;
+	}
+	
+	
+	#gender{
+		border: 1px solid black;
+		border: none;
+		width: 400px;
+	}
+	
+	#controlbtn {
+		width: 70px;
+        color: #fff;
+        font-family: tahoma,geneva,algerian;
+        height: 30px;
+        border-radius: 15px;
+        border: 2px solid white;
+		margin-top: 8px;
+	}
+	
+	#panel, #flip {
+		padding: 5px;
+		text-align: center;
+		background-color: transparent;
+		border: 2px solid #ccc
+	}
+
+	#panel {
+		padding: 30px;
+		display: none;
+	}
+	
+	#slide{
+		float: right;
+		color: #09c;
+	}
+	
+	input[type="submit"],a{
+		background: #09c;
+	}
+	
+	input[type="reset"]{
+		background: #D2B48C;
+	}
