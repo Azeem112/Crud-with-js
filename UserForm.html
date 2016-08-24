@@ -1,0 +1,44 @@
+<html>
+   <head>
+		<title>Snow Love</title>
+
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/js-site.css">
+		
+   </head>
+
+   <body  class="background"> 
+   
+	 <div>
+	 
+		<h1>Important note. * are essentially required fields</h1>
+		
+		<br>
+		
+		<form action="index.php" method="POST"  name="myForm">
+		
+			<lable>FirstName:</lable> <input type="text" name="fName"> <span class="Error">* </span>
+			<br>
+			<lable>LastName:</lable> <input type="text" name="lName"> <span class="Error">* </span>
+			<br>
+			<lable>Email:</lable> <input type="text" name="email"> <span class="Error">* </span>
+			<br>
+			<lable>age:</lable> <input type="text" name="url"> <span class="Error">* </span>
+			<br>
+			
+			<div id="gender">
+				<lable>Gender:</lable> 
+					<input type="radio" name="gender" value="Male">Male
+					<input type="radio" name="gender" value="Female" >Female
+					<span class="Error">* </span>
+			</div>
+			
+			<br>
+			<input type="submit" value="Submit" id=controlbtn>
+			<input type="reset" name="reset" id=controlbtn>
+			
+		</form>
+	 </div>
+  </body>
+
+</html>
